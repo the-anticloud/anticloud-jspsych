@@ -1,0 +1,522 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:dbdbcd41-1e43-5ce6-b294-c1fb2547b79e",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T17:01:46Z",
+    "component": {
+      "type": "application",
+      "name": "JSPSYCH",
+      "version": "3e24c16c04dc",
+      "bom-ref": "pkg:generic/anticloud/JSPSYCH@3e24c16c04dc",
+      "purl": "pkg:generic/anticloud/JSPSYCH@3e24c16c04dc",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "3e24c16c04dc3d2c6406c219126a9c9dc4737627"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/jspsych/jsPsych"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@changesets/changelog-github",
+      "version": "^0.4.7",
+      "purl": "pkg:npm/@changesets/changelog-github@^0.4.7",
+      "bom-ref": "npm/@changesets/changelog-github@^0.4.7"
+    },
+    {
+      "type": "library",
+      "name": "@changesets/cli",
+      "version": "^2.25.2",
+      "purl": "pkg:npm/@changesets/cli@^2.25.2",
+      "bom-ref": "npm/@changesets/cli@^2.25.2"
+    },
+    {
+      "type": "library",
+      "name": "@jspsych/config",
+      "version": "^3.2.1",
+      "purl": "pkg:npm/@jspsych/config@^3.2.1",
+      "bom-ref": "npm/@jspsych/config@^3.2.1"
+    },
+    {
+      "type": "library",
+      "name": "husky",
+      "version": "^8.0.3",
+      "purl": "pkg:npm/husky@^8.0.3",
+      "bom-ref": "npm/husky@^8.0.3"
+    },
+    {
+      "type": "library",
+      "name": "import-sort-style-module",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/import-sort-style-module@^6.0.0",
+      "bom-ref": "npm/import-sort-style-module@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "lint-staged",
+      "version": "^15.5.2",
+      "purl": "pkg:npm/lint-staged@^15.5.2",
+      "bom-ref": "npm/lint-staged@^15.5.2"
+    },
+    {
+      "type": "library",
+      "name": "prettier",
+      "version": "^2.7.1",
+      "purl": "pkg:npm/prettier@^2.7.1",
+      "bom-ref": "npm/prettier@^2.7.1"
+    },
+    {
+      "type": "library",
+      "name": "prettier-plugin-import-sort",
+      "version": "^0.0.7",
+      "purl": "pkg:npm/prettier-plugin-import-sort@^0.0.7",
+      "bom-ref": "npm/prettier-plugin-import-sort@^0.0.7"
+    },
+    {
+      "type": "library",
+      "name": "turbo",
+      "version": "^1.6.3",
+      "purl": "pkg:npm/turbo@^1.6.3",
+      "bom-ref": "npm/turbo@^1.6.3"
+    },
+    {
+      "type": "library",
+      "name": "@citation-js/core",
+      "version": "^0.7.14",
+      "purl": "pkg:npm/@citation-js/core@^0.7.14",
+      "bom-ref": "npm/@citation-js/core@^0.7.14"
+    },
+    {
+      "type": "library",
+      "name": "@citation-js/plugin-bibtex",
+      "version": "^0.7.14",
+      "purl": "pkg:npm/@citation-js/plugin-bibtex@^0.7.14",
+      "bom-ref": "npm/@citation-js/plugin-bibtex@^0.7.14"
+    },
+    {
+      "type": "library",
+      "name": "@citation-js/plugin-csl",
+      "version": "^0.7.14",
+      "purl": "pkg:npm/@citation-js/plugin-csl@^0.7.14",
+      "bom-ref": "npm/@citation-js/plugin-csl@^0.7.14"
+    },
+    {
+      "type": "library",
+      "name": "@citation-js/plugin-software-formats",
+      "version": "^0.6.1",
+      "purl": "pkg:npm/@citation-js/plugin-software-formats@^0.6.1",
+      "bom-ref": "npm/@citation-js/plugin-software-formats@^0.6.1"
+    },
+    {
+      "type": "library",
+      "name": "@rollup/plugin-commonjs",
+      "version": "26.0.1",
+      "purl": "pkg:npm/@rollup/plugin-commonjs@26.0.1",
+      "bom-ref": "npm/@rollup/plugin-commonjs@26.0.1"
+    },
+    {
+      "type": "library",
+      "name": "@rollup/plugin-node-resolve",
+      "version": "15.2.3",
+      "purl": "pkg:npm/@rollup/plugin-node-resolve@15.2.3",
+      "bom-ref": "npm/@rollup/plugin-node-resolve@15.2.3"
+    },
+    {
+      "type": "library",
+      "name": "@rollup/plugin-replace",
+      "version": "^6.0.1",
+      "purl": "pkg:npm/@rollup/plugin-replace@^6.0.1",
+      "bom-ref": "npm/@rollup/plugin-replace@^6.0.1"
+    },
+    {
+      "type": "library",
+      "name": "@sucrase/jest-plugin",
+      "version": "3.0.0",
+      "purl": "pkg:npm/@sucrase/jest-plugin@3.0.0",
+      "bom-ref": "npm/@sucrase/jest-plugin@3.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/gulp",
+      "version": "4.0.17",
+      "purl": "pkg:npm/@types/gulp@4.0.17",
+      "bom-ref": "npm/@types/gulp@4.0.17"
+    },
+    {
+      "type": "library",
+      "name": "@types/jest",
+      "version": "29.5.8",
+      "purl": "pkg:npm/@types/jest@29.5.8",
+      "bom-ref": "npm/@types/jest@29.5.8"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "^22.10.10",
+      "purl": "pkg:npm/@types/node@^22.10.10",
+      "bom-ref": "npm/@types/node@^22.10.10"
+    },
+    {
+      "type": "library",
+      "name": "alias-hq",
+      "version": "6.2.4",
+      "purl": "pkg:npm/alias-hq@6.2.4",
+      "bom-ref": "npm/alias-hq@6.2.4"
+    },
+    {
+      "type": "library",
+      "name": "app-root-path",
+      "version": "^3.1.0",
+      "purl": "pkg:npm/app-root-path@^3.1.0",
+      "bom-ref": "npm/app-root-path@^3.1.0"
+    },
+    {
+      "type": "library",
+      "name": "esbuild",
+      "version": "^0.25.0",
+      "purl": "pkg:npm/esbuild@^0.25.0",
+      "bom-ref": "npm/esbuild@^0.25.0"
+    },
+    {
+      "type": "library",
+      "name": "glob",
+      "version": "7.2.3",
+      "purl": "pkg:npm/glob@7.2.3",
+      "bom-ref": "npm/glob@7.2.3"
+    },
+    {
+      "type": "library",
+      "name": "gulp",
+      "version": "5.0.0",
+      "purl": "pkg:npm/gulp@5.0.0",
+      "bom-ref": "npm/gulp@5.0.0"
+    },
+    {
+      "type": "library",
+      "name": "gulp-cli",
+      "version": "3.0.0",
+      "purl": "pkg:npm/gulp-cli@3.0.0",
+      "bom-ref": "npm/gulp-cli@3.0.0"
+    },
+    {
+      "type": "library",
+      "name": "gulp-file",
+      "version": "0.4.0",
+      "purl": "pkg:npm/gulp-file@0.4.0",
+      "bom-ref": "npm/gulp-file@0.4.0"
+    },
+    {
+      "type": "library",
+      "name": "gulp-rename",
+      "version": "2.0.0",
+      "purl": "pkg:npm/gulp-rename@2.0.0",
+      "bom-ref": "npm/gulp-rename@2.0.0"
+    },
+    {
+      "type": "library",
+      "name": "gulp-replace",
+      "version": "1.1.4",
+      "purl": "pkg:npm/gulp-replace@1.1.4",
+      "bom-ref": "npm/gulp-replace@1.1.4"
+    },
+    {
+      "type": "library",
+      "name": "gulp-zip",
+      "version": "6.0.0",
+      "purl": "pkg:npm/gulp-zip@6.0.0",
+      "bom-ref": "npm/gulp-zip@6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "jest",
+      "version": "29.7.0",
+      "purl": "pkg:npm/jest@29.7.0",
+      "bom-ref": "npm/jest@29.7.0"
+    },
+    {
+      "type": "library",
+      "name": "jest-canvas-mock",
+      "version": "2.5.0",
+      "purl": "pkg:npm/jest-canvas-mock@2.5.0",
+      "bom-ref": "npm/jest-canvas-mock@2.5.0"
+    },
+    {
+      "type": "library",
+      "name": "jest-environment-jsdom",
+      "version": "29.7.0",
+      "purl": "pkg:npm/jest-environment-jsdom@29.7.0",
+      "bom-ref": "npm/jest-environment-jsdom@29.7.0"
+    },
+    {
+      "type": "library",
+      "name": "rollup",
+      "version": "^4.59.0",
+      "purl": "pkg:npm/rollup@^4.59.0",
+      "bom-ref": "npm/rollup@^4.59.0"
+    },
+    {
+      "type": "library",
+      "name": "rollup-plugin-dts",
+      "version": "6.1.1",
+      "purl": "pkg:npm/rollup-plugin-dts@6.1.1",
+      "bom-ref": "npm/rollup-plugin-dts@6.1.1"
+    },
+    {
+      "type": "library",
+      "name": "rollup-plugin-esbuild",
+      "version": "6.2.1",
+      "purl": "pkg:npm/rollup-plugin-esbuild@6.2.1",
+      "bom-ref": "npm/rollup-plugin-esbuild@6.2.1"
+    },
+    {
+      "type": "library",
+      "name": "rollup-plugin-modify",
+      "version": "^3.0.0",
+      "purl": "pkg:npm/rollup-plugin-modify@^3.0.0",
+      "bom-ref": "npm/rollup-plugin-modify@^3.0.0"
+    },
+    {
+      "type": "library",
+      "name": "rollup-plugin-node-externals",
+      "version": "7.1.3",
+      "purl": "pkg:npm/rollup-plugin-node-externals@7.1.3",
+      "bom-ref": "npm/rollup-plugin-node-externals@7.1.3"
+    },
+    {
+      "type": "library",
+      "name": "sucrase",
+      "version": "3.34.0",
+      "purl": "pkg:npm/sucrase@3.34.0",
+      "bom-ref": "npm/sucrase@3.34.0"
+    },
+    {
+      "type": "library",
+      "name": "tslib",
+      "version": "2.6.2",
+      "purl": "pkg:npm/tslib@2.6.2",
+      "bom-ref": "npm/tslib@2.6.2"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^5.7.0",
+      "purl": "pkg:npm/typescript@^5.7.0",
+      "bom-ref": "npm/typescript@^5.7.0"
+    },
+    {
+      "type": "library",
+      "name": "@jspsych/test-utils",
+      "version": "^1.2.0",
+      "purl": "pkg:npm/@jspsych/test-utils@^1.2.0",
+      "bom-ref": "npm/@jspsych/test-utils@^1.2.0"
+    },
+    {
+      "type": "library",
+      "name": "jspsych",
+      "version": ">=7.0.0",
+      "purl": "pkg:npm/jspsych@>=7.0.0",
+      "bom-ref": "npm/jspsych@>=7.0.0"
+    },
+    {
+      "type": "library",
+      "name": "datapipe-client",
+      "version": "^0.1.0",
+      "purl": "pkg:npm/datapipe-client@^0.1.0",
+      "bom-ref": "npm/datapipe-client@^0.1.0"
+    },
+    {
+      "type": "library",
+      "name": "auto-bind",
+      "version": "^4.0.0",
+      "purl": "pkg:npm/auto-bind@^4.0.0",
+      "bom-ref": "npm/auto-bind@^4.0.0"
+    },
+    {
+      "type": "library",
+      "name": "random-words",
+      "version": "^1.1.1",
+      "purl": "pkg:npm/random-words@^1.1.1",
+      "bom-ref": "npm/random-words@^1.1.1"
+    },
+    {
+      "type": "library",
+      "name": "seedrandom",
+      "version": "^3.0.5",
+      "purl": "pkg:npm/seedrandom@^3.0.5",
+      "bom-ref": "npm/seedrandom@^3.0.5"
+    },
+    {
+      "type": "library",
+      "name": "type-fest",
+      "version": "^2.9.0",
+      "purl": "pkg:npm/type-fest@^2.9.0",
+      "bom-ref": "npm/type-fest@^2.9.0"
+    },
+    {
+      "type": "library",
+      "name": "@fontsource/open-sans",
+      "version": "4.5.3",
+      "purl": "pkg:npm/@fontsource/open-sans@4.5.3",
+      "bom-ref": "npm/@fontsource/open-sans@4.5.3"
+    },
+    {
+      "type": "library",
+      "name": "@types/dom-mediacapture-record",
+      "version": "^1.0.11",
+      "purl": "pkg:npm/@types/dom-mediacapture-record@^1.0.11",
+      "bom-ref": "npm/@types/dom-mediacapture-record@^1.0.11"
+    },
+    {
+      "type": "library",
+      "name": "base64-inline-loader",
+      "version": "^2.0.1",
+      "purl": "pkg:npm/base64-inline-loader@^2.0.1",
+      "bom-ref": "npm/base64-inline-loader@^2.0.1"
+    },
+    {
+      "type": "library",
+      "name": "css-loader",
+      "version": "^6.6.0",
+      "purl": "pkg:npm/css-loader@^6.6.0",
+      "bom-ref": "npm/css-loader@^6.6.0"
+    },
+    {
+      "type": "library",
+      "name": "mini-css-extract-plugin",
+      "version": "^2.5.3",
+      "purl": "pkg:npm/mini-css-extract-plugin@^2.5.3",
+      "bom-ref": "npm/mini-css-extract-plugin@^2.5.3"
+    },
+    {
+      "type": "library",
+      "name": "npm-run-all",
+      "version": "^4.1.5",
+      "purl": "pkg:npm/npm-run-all@^4.1.5",
+      "bom-ref": "npm/npm-run-all@^4.1.5"
+    },
+    {
+      "type": "library",
+      "name": "replace-in-file-webpack-plugin",
+      "version": "^1.0.6",
+      "purl": "pkg:npm/replace-in-file-webpack-plugin@^1.0.6",
+      "bom-ref": "npm/replace-in-file-webpack-plugin@^1.0.6"
+    },
+    {
+      "type": "library",
+      "name": "sass",
+      "version": "^1.43.5",
+      "purl": "pkg:npm/sass@^1.43.5",
+      "bom-ref": "npm/sass@^1.43.5"
+    },
+    {
+      "type": "library",
+      "name": "sass-loader",
+      "version": "^12.4.0",
+      "purl": "pkg:npm/sass-loader@^12.4.0",
+      "bom-ref": "npm/sass-loader@^12.4.0"
+    },
+    {
+      "type": "library",
+      "name": "webpack",
+      "version": "^5.76.0",
+      "purl": "pkg:npm/webpack@^5.76.0",
+      "bom-ref": "npm/webpack@^5.76.0"
+    },
+    {
+      "type": "library",
+      "name": "webpack-cli",
+      "version": "^4.9.2",
+      "purl": "pkg:npm/webpack-cli@^4.9.2",
+      "bom-ref": "npm/webpack-cli@^4.9.2"
+    },
+    {
+      "type": "library",
+      "name": "webpack-remove-empty-scripts",
+      "version": "^0.7.2",
+      "purl": "pkg:npm/webpack-remove-empty-scripts@^0.7.2",
+      "bom-ref": "npm/webpack-remove-empty-scripts@^0.7.2"
+    },
+    {
+      "type": "library",
+      "name": "detect-browser",
+      "version": "^5.2.1",
+      "purl": "pkg:npm/detect-browser@^5.2.1",
+      "bom-ref": "npm/detect-browser@^5.2.1"
+    },
+    {
+      "type": "library",
+      "name": "jest-fetch-mock",
+      "version": "^3.0.3",
+      "purl": "pkg:npm/jest-fetch-mock@^3.0.3",
+      "bom-ref": "npm/jest-fetch-mock@^3.0.3"
+    },
+    {
+      "type": "library",
+      "name": "@types/resize-observer-browser",
+      "version": "^0.1.6",
+      "purl": "pkg:npm/@types/resize-observer-browser@^0.1.6",
+      "bom-ref": "npm/@types/resize-observer-browser@^0.1.6"
+    },
+    {
+      "type": "library",
+      "name": "@jspsych/plugin-audio-keyboard-response",
+      "version": "*",
+      "purl": "pkg:npm/@jspsych/plugin-audio-keyboard-response@*",
+      "bom-ref": "npm/@jspsych/plugin-audio-keyboard-response@*"
+    },
+    {
+      "type": "library",
+      "name": "@jspsych/plugin-image-keyboard-response",
+      "version": "*",
+      "purl": "pkg:npm/@jspsych/plugin-image-keyboard-response@*",
+      "bom-ref": "npm/@jspsych/plugin-image-keyboard-response@*"
+    },
+    {
+      "type": "library",
+      "name": "@jspsych/plugin-video-keyboard-response",
+      "version": "*",
+      "purl": "pkg:npm/@jspsych/plugin-video-keyboard-response@*",
+      "bom-ref": "npm/@jspsych/plugin-video-keyboard-response@*"
+    },
+    {
+      "type": "library",
+      "name": "survey-core",
+      "version": "^2.3.12",
+      "purl": "pkg:npm/survey-core@^2.3.12",
+      "bom-ref": "npm/survey-core@^2.3.12"
+    },
+    {
+      "type": "library",
+      "name": "survey-js-ui",
+      "version": "^2.3.12",
+      "purl": "pkg:npm/survey-js-ui@^2.3.12",
+      "bom-ref": "npm/survey-js-ui@^2.3.12"
+    },
+    {
+      "type": "library",
+      "name": "@jspsych/extension-webgazer",
+      "version": "^1.2.0",
+      "purl": "pkg:npm/@jspsych/extension-webgazer@^1.2.0",
+      "bom-ref": "npm/@jspsych/extension-webgazer@^1.2.0"
+    }
+  ]
+}
