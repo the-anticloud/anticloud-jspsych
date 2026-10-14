@@ -1,0 +1,6 @@
+# 08 Intellectual Property And Rights
+
+**Project:** JSPSYCH
+**Upstream:** https://github.com/jspsych/jsPsych
+
+Content specific to JSPSYCH in category PSYCHOLOGY.
